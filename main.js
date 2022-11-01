@@ -33,3 +33,4 @@ const randomizeMovie=async()=>{
 
 //event handler
 movieBtn.addEventListener('click',randomizeMovie);
+onload=randomizeMovie;
